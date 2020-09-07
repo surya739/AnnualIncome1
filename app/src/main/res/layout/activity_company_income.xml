@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompanyIncome">
+
+
+
+
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to Known your GST "
+        android:textColor="@android:color/black"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:text="Cost Rate              ="
+        android:textSize="25dp"
+        android:layout_above="@id/b1"
+        android:textColor="@android:color/black"
+
+
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b1"
+
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="263dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:textSize="20dp">
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="calculate"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="80dp"
+        >
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:text="Gst Rate             ="
+        android:textSize="25dp"
+        android:layout_below="@+id/b1"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/black"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t4"
+        android:text="tax Rate             ="
+        android:textSize="25dp"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/black"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="167dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/ed2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="244dp"
+        android:layout_marginLeft="244dp"
+        android:layout_marginTop="90dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginRight="11dp"
+        android:textSize="25dp">
+
+    </EditText>
+
+</RelativeLayout>
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GST">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:text="Annual Income        ="
+        android:textSize="25dp"
+        android:layout_above="@id/t2"
+        android:layout_marginBottom="50dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:text="Annual Investment ="
+        android:textSize="25dp"
+        android:layout_centerVertical="true"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="256dp"
+        android:layout_marginLeft="256dp"
+        android:textSize="25dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ed2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="261dp"
+        android:layout_marginLeft="261dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="34dp"
+        android:textSize="25dp">
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="calculate"
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/t2"
+        android:layout_marginTop="80dp"
+        >
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3"
+        android:text="Total Income            ="
+        android:textSize="25dp"
+        android:layout_below="@+id/b1"
+        android:layout_marginTop="50dp"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="140dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/b1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="266dp"
+        android:layout_marginLeft="266dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="6dp"
+        android:textSize="25dp">
+
+    </EditText>
+</RelativeLayout>

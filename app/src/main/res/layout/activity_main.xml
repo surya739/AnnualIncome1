@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/money_bg"
+        android:alpha="2.0"
+        android:layout_centerInParent="true"
+
+        android:id="@+id/i1"
+
+        >
+
+    </ImageView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/t1"
+    android:text="To Your Price GST and INCOME"
+    android:textColor="@android:color/black"
+    android:textSize="25sp"
+    android:layout_centerHorizontal="true"
+    >
+
+</TextView>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/b2"
+    android:text="Cost GST"
+    android:textColor="@android:color/black"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:textSize="20sp"
+    android:background="@color/midnightGreen"
+    >
+
+</Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="Company Income "
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/midnightGreen"
+        android:layout_above="@+id/b2"
+        android:layout_marginBottom="100sp"
+        >
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:text="Business Income "
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/midnightGreen"
+        android:layout_below="@+id/b2"
+        android:layout_marginTop="100sp"
+        >
+
+    </Button>
+</RelativeLayout>
